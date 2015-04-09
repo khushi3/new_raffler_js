@@ -95,3 +95,66 @@ Started GET "/assets/raffle-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.
 
 
 Started GET "/assets/application-be5d78dad6a20fac1d710064de5d8bda.js?body=1" for 127.0.0.1 at 2015-04-08 15:07:05 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 16:20:54 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 270ms (Views: 261.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/raffle-a0ad823977fade31f075c59f778e04df.js?body=1" for 127.0.0.1 at 2015-04-08 16:20:54 -0800
+
+
+Started GET "/assets/application-c9ab02b67ec46acf5f18298a2bdda6d4.js?body=1" for 127.0.0.1 at 2015-04-08 16:20:54 -0800
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 16:20:54 -0800
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 16:20:54 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 16:20:54 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 16:26:30 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 152ms (Views: 151.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 16:26:30 -0800
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 16:26:30 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 16:26:30 -0800
+
+
+Started GET "/assets/application-15056d4e50e3cf779161177a6f1df2c2.js?body=1" for 127.0.0.1 at 2015-04-08 16:26:30 -0800
+
+
+Started GET "/assets/raffle-f064ca114a5e5f356dce588b5b0a9749.js?body=1" for 127.0.0.1 at 2015-04-08 16:26:30 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 16:28:41 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 16:28:41 -0800
+
+
+Started GET "/assets/raffle-f064ca114a5e5f356dce588b5b0a9749.js?body=1" for 127.0.0.1 at 2015-04-08 16:28:41 -0800
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 16:28:41 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 16:28:41 -0800
+
+
+Started GET "/assets/application-15056d4e50e3cf779161177a6f1df2c2.js?body=1" for 127.0.0.1 at 2015-04-08 16:28:41 -0800
