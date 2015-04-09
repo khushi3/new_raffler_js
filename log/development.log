@@ -179,3 +179,2332 @@ Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127
 
 
 Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 16:45:29 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 17:02:20 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 265ms (Views: 256.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 17:02:20 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 17:02:20 -0800
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 17:02:20 -0800
+
+
+Started GET "/assets/application-3c9e0f5e6ee0790889c5e531a71790e8.js?body=1" for 127.0.0.1 at 2015-04-08 17:02:20 -0800
+
+
+Started GET "/assets/raffle-9c181431eaa32ed38f42c9ab251b19e7.js?body=1" for 127.0.0.1 at 2015-04-08 17:02:20 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 17:07:27 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 122ms
+
+ActionView::Template::Error (SyntaxError: [stdin]:16:9: unexpected if
+  (in /home/user/projects/new_raffler_js/app/assets/javascripts/raffle.js.coffee)):
+    3: <head>
+    4:   <title>Raffler</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___604549387_91942510'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.1ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (30.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 17:07:30 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 125ms
+
+ActionView::Template::Error (SyntaxError: [stdin]:16:9: unexpected if
+  (in /home/user/projects/new_raffler_js/app/assets/javascripts/raffle.js.coffee)):
+    3: <head>
+    4:   <title>Raffler</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___604549387_91942510'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.9ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.0ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 17:12:39 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 151ms (Views: 150.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 17:12:39 -0800
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 17:12:39 -0800
+
+
+Started GET "/assets/application-3ba447b2b9bb72e56ff331cf1dba328b.js?body=1" for 127.0.0.1 at 2015-04-08 17:12:39 -0800
+
+
+Started GET "/assets/raffle-9678790f749ecbb64fda2fb95f2bae62.js?body=1" for 127.0.0.1 at 2015-04-08 17:12:39 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 17:12:39 -0800
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-04-08 17:20:05 -0800
+
+ActionController::RoutingError (No route matches [GET] "/users/1"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.0ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.0ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 17:20:09 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 40ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 17:20:09 -0800
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 17:20:09 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 17:20:09 -0800
+  [1m[36m (77.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (73.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateEntries (20150409012316)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "entries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "winner" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150409012316"]]
+  [1m[35m (78.3ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Matz"], ["created_at", "2015-04-09 01:26:51.053159"], ["updated_at", "2015-04-09 01:26:51.053159"]]
+  [1m[35m (94.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "DHH"], ["created_at", "2015-04-09 01:26:51.150572"], ["updated_at", "2015-04-09 01:26:51.150572"]]
+  [1m[36m (73.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "kunal"], ["created_at", "2015-04-09 01:26:51.225894"], ["updated_at", "2015-04-09 01:26:51.225894"]]
+  [1m[35m (71.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Naresh"], ["created_at", "2015-04-09 01:26:51.299986"], ["updated_at", "2015-04-09 01:26:51.299986"]]
+  [1m[36m (73.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Nandan"], ["created_at", "2015-04-09 01:26:51.375318"], ["updated_at", "2015-04-09 01:26:51.375318"]]
+  [1m[35m (72.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Micky"], ["created_at", "2015-04-09 01:26:51.449640"], ["updated_at", "2015-04-09 01:26:51.449640"]]
+  [1m[36m (72.9ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 17:42:55 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 394ms (Views: 384.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-08 17:42:56 -0800
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 17:42:56 -0800
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 17:42:56 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 17:42:56 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-04-08 17:42:56 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-08 17:42:56 -0800
+
+
+Started GET "/assets/application-4530ed9aa57202eadaa4b214f0bc90d8.js?body=1" for 127.0.0.1 at 2015-04-08 17:42:56 -0800
+
+
+Started GET "/assets/raffle-ac2f1c43f877d7a50d2a0260b1460db4.js?body=1" for 127.0.0.1 at 2015-04-08 17:42:56 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-04-08 17:42:56 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.8ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (30.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 17:43:20 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 17:43:20 -0800
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-08 17:43:20 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 17:43:20 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-04-08 17:43:20 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-08 17:43:20 -0800
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 17:43:20 -0800
+
+
+Started GET "/assets/raffle-ac2f1c43f877d7a50d2a0260b1460db4.js?body=1" for 127.0.0.1 at 2015-04-08 17:43:20 -0800
+
+
+Started GET "/assets/application-4530ed9aa57202eadaa4b214f0bc90d8.js?body=1" for 127.0.0.1 at 2015-04-08 17:43:20 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-04-08 17:43:20 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.8ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 17:47:56 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 293ms (Views: 284.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-08 17:47:56 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 17:47:56 -0800
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 17:47:56 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-04-08 17:47:56 -0800
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 17:47:56 -0800
+
+
+Started GET "/assets/application-eb707c7e9e193837eecf12e7e7751d66.js?body=1" for 127.0.0.1 at 2015-04-08 17:47:56 -0800
+
+
+Started GET "/assets/raffle-674d8fe2e53f0f8c5a8ee41c318dc824.js?body=1" for 127.0.0.1 at 2015-04-08 17:47:56 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-08 17:47:56 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-04-08 17:47:56 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.7ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (29.9ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-04-08 17:48:02 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.6ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9052e78 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9052c70 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9050ad8 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 17:48:03 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (6.7ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9052e78 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9052c70 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9050ad8 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 17:48:05 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 17:48:05 -0800
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-08 17:48:05 -0800
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 17:48:05 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-04-08 17:48:05 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-08 17:48:05 -0800
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 17:48:05 -0800
+
+
+Started GET "/assets/raffle-674d8fe2e53f0f8c5a8ee41c318dc824.js?body=1" for 127.0.0.1 at 2015-04-08 17:48:05 -0800
+
+
+Started GET "/assets/application-eb707c7e9e193837eecf12e7e7751d66.js?body=1" for 127.0.0.1 at 2015-04-08 17:48:05 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-04-08 17:48:05 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.8ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Matz"], ["created_at", "2015-04-09 01:49:03.020236"], ["updated_at", "2015-04-09 01:49:03.020236"]]
+  [1m[35m (77.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "DHH"], ["created_at", "2015-04-09 01:49:03.100777"], ["updated_at", "2015-04-09 01:49:03.100777"]]
+  [1m[36m (73.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "kunal"], ["created_at", "2015-04-09 01:49:03.176784"], ["updated_at", "2015-04-09 01:49:03.176784"]]
+  [1m[35m (73.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Naresh"], ["created_at", "2015-04-09 01:49:03.252755"], ["updated_at", "2015-04-09 01:49:03.252755"]]
+  [1m[36m (72.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Nandan"], ["created_at", "2015-04-09 01:49:03.327404"], ["updated_at", "2015-04-09 01:49:03.327404"]]
+  [1m[35m (73.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Micky"], ["created_at", "2015-04-09 01:49:03.403102"], ["updated_at", "2015-04-09 01:49:03.403102"]]
+  [1m[36m (74.4ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 17:49:09 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 229ms
+
+ActionView::Template::Error (SyntaxError: [stdin]:6:1: unexpected indentation
+  (in /home/user/projects/new_raffler_js/app/assets/javascripts/raffle.js.coffee)):
+    3: <head>
+    4:   <title>Raffler</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__620240196_89271530'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.1ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.0ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (29.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 17:49:11 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 120ms
+
+ActionView::Template::Error (SyntaxError: [stdin]:6:1: unexpected indentation
+  (in /home/user/projects/new_raffler_js/app/assets/javascripts/raffle.js.coffee)):
+    3: <head>
+    4:   <title>Raffler</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__620240196_89271530'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.1ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.0ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 17:50:31 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 179ms (Views: 177.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 17:50:31 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 17:50:31 -0800
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-08 17:50:31 -0800
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 17:50:31 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-04-08 17:50:31 -0800
+
+
+Started GET "/assets/application-eb707c7e9e193837eecf12e7e7751d66.js?body=1" for 127.0.0.1 at 2015-04-08 17:50:31 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-08 17:50:31 -0800
+
+
+Started GET "/assets/raffle-674d8fe2e53f0f8c5a8ee41c318dc824.js?body=1" for 127.0.0.1 at 2015-04-08 17:50:31 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-04-08 17:50:31 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.9ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.8ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-04-08 17:50:39 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.9ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9802a24 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9802880 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9800724 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 17:50:40 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.9ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9802a24 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9802880 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9800724 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-04-08 17:50:47 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.5ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9802a24 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9802880 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9800724 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-04-08 17:50:51 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.5ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9802a24 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9802880 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9800724 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 17:50:52 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (5.2ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9802a24 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9802880 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9800724 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 17:50:52 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.6ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9802a24 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9802880 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9800724 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 17:50:52 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (5.0ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9802a24 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9802880 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9800724 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 17:50:54 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.7ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9802a24 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9802880 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9800724 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 17:50:54 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.7ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9802a24 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9802880 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9800724 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 17:50:54 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.8ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9802a24 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9802880 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9800724 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 17:50:56 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-08 17:50:56 -0800
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 17:50:56 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-04-08 17:50:56 -0800
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 17:50:56 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 17:50:56 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-08 17:50:56 -0800
+
+
+Started GET "/assets/raffle-674d8fe2e53f0f8c5a8ee41c318dc824.js?body=1" for 127.0.0.1 at 2015-04-08 17:50:56 -0800
+
+
+Started GET "/assets/application-eb707c7e9e193837eecf12e7e7751d66.js?body=1" for 127.0.0.1 at 2015-04-08 17:50:56 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-04-08 17:50:56 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.0ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.1ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Matz"], ["created_at", "2015-04-09 01:51:34.070326"], ["updated_at", "2015-04-09 01:51:34.070326"]]
+  [1m[35m (74.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "DHH"], ["created_at", "2015-04-09 01:51:34.147641"], ["updated_at", "2015-04-09 01:51:34.147641"]]
+  [1m[36m (73.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "kunal"], ["created_at", "2015-04-09 01:51:34.223106"], ["updated_at", "2015-04-09 01:51:34.223106"]]
+  [1m[35m (71.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Naresh"], ["created_at", "2015-04-09 01:51:34.297113"], ["updated_at", "2015-04-09 01:51:34.297113"]]
+  [1m[36m (73.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Nandan"], ["created_at", "2015-04-09 01:51:34.372488"], ["updated_at", "2015-04-09 01:51:34.372488"]]
+  [1m[35m (71.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Micky"], ["created_at", "2015-04-09 01:51:34.446530"], ["updated_at", "2015-04-09 01:51:34.446530"]]
+  [1m[36m (73.3ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 17:51:42 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 71ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-08 17:51:42 -0800
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 17:51:42 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 17:51:42 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-08 17:51:42 -0800
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 17:51:42 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-04-08 17:51:42 -0800
+
+
+Started GET "/assets/raffle-674d8fe2e53f0f8c5a8ee41c318dc824.js?body=1" for 127.0.0.1 at 2015-04-08 17:51:42 -0800
+
+
+Started GET "/assets/application-eb707c7e9e193837eecf12e7e7751d66.js?body=1" for 127.0.0.1 at 2015-04-08 17:51:42 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-04-08 17:51:42 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (18.1ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (34.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 17:51:44 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 36ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-08 17:51:44 -0800
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 17:51:44 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-04-08 17:51:44 -0800
+
+
+Started GET "/assets/application-eb707c7e9e193837eecf12e7e7751d66.js?body=1" for 127.0.0.1 at 2015-04-08 17:51:44 -0800
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 17:51:44 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 17:51:44 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-08 17:51:44 -0800
+
+
+Started GET "/assets/raffle-674d8fe2e53f0f8c5a8ee41c318dc824.js?body=1" for 127.0.0.1 at 2015-04-08 17:51:44 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-04-08 17:51:44 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.7ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.1ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 17:58:15 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 257ms (Views: 256.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/raffle-cd96ec8b5f96000b9b1eb3151cad09e0.js?body=1" for 127.0.0.1 at 2015-04-08 17:58:15 -0800
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-08 17:58:15 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 17:58:15 -0800
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 17:58:15 -0800
+
+
+Started GET "/assets/application-283d3752e8de9c8446577f8bd2f71374.js?body=1" for 127.0.0.1 at 2015-04-08 17:58:15 -0800
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 17:58:15 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-04-08 17:58:15 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-08 17:58:15 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-04-08 17:58:15 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.5ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-04-08 17:58:21 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.5ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9bbe21c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9bbe0a0 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9bbc520 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 17:58:22 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.9ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9bbe21c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9bbe0a0 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9bbc520 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 17:58:23 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-08 17:58:23 -0800
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 17:58:23 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 17:58:23 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-04-08 17:58:23 -0800
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 17:58:23 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-08 17:58:23 -0800
+
+
+Started GET "/assets/raffle-cd96ec8b5f96000b9b1eb3151cad09e0.js?body=1" for 127.0.0.1 at 2015-04-08 17:58:23 -0800
+
+
+Started GET "/assets/application-283d3752e8de9c8446577f8bd2f71374.js?body=1" for 127.0.0.1 at 2015-04-08 17:58:23 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-04-08 17:58:23 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.9ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (29.1ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-04-08 17:58:29 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.8ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9bbe21c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9bbe0a0 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9bbc520 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-04-08 17:58:34 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.7ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9bbe21c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9bbe0a0 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9bbc520 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 17:58:34 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.7ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9bbe21c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9bbe0a0 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9bbc520 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 17:58:34 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.8ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9bbe21c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9bbe0a0 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9bbc520 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 17:58:35 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (9.2ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9bbe21c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9bbe0a0 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9bbc520 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 17:58:35 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (5.0ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9bbe21c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9bbe0a0 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9bbc520 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 17:58:36 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.6ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9bbe21c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9bbe0a0 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9bbc520 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 17:58:36 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.9ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9bbe21c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9bbe0a0 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9bbc520 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 17:58:42 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-08 17:58:42 -0800
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 17:58:42 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-08 17:58:42 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 17:58:42 -0800
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 17:58:42 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-04-08 17:58:42 -0800
+
+
+Started GET "/assets/raffle-cd96ec8b5f96000b9b1eb3151cad09e0.js?body=1" for 127.0.0.1 at 2015-04-08 17:58:42 -0800
+
+
+Started GET "/assets/application-283d3752e8de9c8446577f8bd2f71374.js?body=1" for 127.0.0.1 at 2015-04-08 17:58:42 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-04-08 17:58:42 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.1ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 18:16:37 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 164ms (Views: 163.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-08 18:16:38 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-08 18:16:38 -0800
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 18:16:38 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-04-08 18:16:38 -0800
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 18:16:38 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 18:16:38 -0800
+
+
+Started GET "/assets/raffle-cd96ec8b5f96000b9b1eb3151cad09e0.js?body=1" for 127.0.0.1 at 2015-04-08 18:16:38 -0800
+
+
+Started GET "/assets/application-283d3752e8de9c8446577f8bd2f71374.js?body=1" for 127.0.0.1 at 2015-04-08 18:16:38 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-04-08 18:16:38 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.2ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-04-08 18:16:43 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.7ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9bbe21c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9bbe0a0 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9bbc520 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 18:16:44 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.6ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9bbe21c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9bbe0a0 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9bbc520 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-04-08 18:16:49 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.9ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9bbe21c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9bbe0a0 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9bbc520 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 18:16:50 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.7ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9bbe21c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9bbe0a0 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9bbc520 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 18:16:50 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.7ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9bbe21c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9bbe0a0 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9bbc520 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 18:30:08 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 284ms (Views: 275.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 18:30:09 -0800
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 18:30:09 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 18:30:09 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-04-08 18:30:09 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-04-08 18:30:09 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-08 18:30:09 -0800
+
+
+Started GET "/assets/application-7c27147ebf91e413233a3448c94b18ee.js?body=1" for 127.0.0.1 at 2015-04-08 18:30:09 -0800
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-08 18:30:09 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-04-08 18:30:09 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (30.0ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-04-08 18:30:14 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.7ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x93a6e1c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x93a6c14 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x93a4a68 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-04-08 18:30:19 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.6ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x93a6e1c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x93a6c14 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x93a4a68 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 18:30:20 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.5ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x93a6e1c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x93a6c14 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x93a4a68 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 18:30:21 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.6ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x93a6e1c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x93a6c14 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x93a4a68 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 18:30:23 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 18:30:23 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 18:30:23 -0800
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-08 18:30:23 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-08 18:30:23 -0800
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 18:30:23 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-04-08 18:30:23 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-04-08 18:30:23 -0800
+
+
+Started GET "/assets/application-7c27147ebf91e413233a3448c94b18ee.js?body=1" for 127.0.0.1 at 2015-04-08 18:30:23 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-04-08 18:30:23 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.0ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 18:37:41 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-04-08 18:37:41 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-04-08 18:37:41 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 18:37:41 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-04-08 18:37:41 -0800
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-08 18:37:41 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-08 18:37:41 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-04-08 18:37:41 -0800
+
+
+Started GET "/assets/application-7c27147ebf91e413233a3448c94b18ee.js?body=1" for 127.0.0.1 at 2015-04-08 18:37:41 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-04-08 18:37:41 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.7ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (29.2ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-04-08 18:37:48 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.6ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x93a6e1c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x93a6c14 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x93a4a68 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 18:37:50 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.7ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x93a6e1c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x93a6c14 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x93a4a68 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-04-08 18:37:56 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.6ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x93a6e1c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x93a6c14 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x93a4a68 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 18:37:58 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.5ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x93a6e1c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x93a6c14 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x93a4a68 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 18:38:00 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-08 18:38:00 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-04-08 18:38:00 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-04-08 18:38:00 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 18:38:00 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-04-08 18:38:00 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-08 18:38:00 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-04-08 18:38:00 -0800
+
+
+Started GET "/assets/application-7c27147ebf91e413233a3448c94b18ee.js?body=1" for 127.0.0.1 at 2015-04-08 18:38:00 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-04-08 18:38:00 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.0ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.3ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-08 18:38:08 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-04-08 18:38:08 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-04-08 18:38:08 -0800
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-04-08 18:38:18 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.6ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x93a6e1c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x93a6c14 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x93a4a68 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 18:42:40 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 36ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-08 18:42:40 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-04-08 18:42:40 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 18:42:40 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-04-08 18:42:40 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-08 18:42:40 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-04-08 18:42:40 -0800
+
+
+Started GET "/assets/application-7c27147ebf91e413233a3448c94b18ee.js?body=1" for 127.0.0.1 at 2015-04-08 18:42:40 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-04-08 18:42:40 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-04-08 18:42:40 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.3ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-04-08 18:42:49 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.5ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x93a6e1c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x93a6c14 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x93a4a68 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 18:45:45 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 43ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-08 18:45:45 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-04-08 18:45:45 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-04-08 18:45:45 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-08 18:45:45 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-04-08 18:45:45 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 18:45:45 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-04-08 18:45:45 -0800
+
+
+Started GET "/assets/application-7c27147ebf91e413233a3448c94b18ee.js?body=1" for 127.0.0.1 at 2015-04-08 18:45:45 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-04-08 18:45:45 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.8ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 18:47:52 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-08 18:47:53 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-04-08 18:47:53 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-04-08 18:47:53 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-08 18:47:53 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-04-08 18:47:53 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-04-08 18:47:53 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 18:47:53 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-04-08 18:47:53 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-04-08 18:47:53 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.7ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.8ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-04-08 18:48:13 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.5ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x93a6e1c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x93a6c14 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x93a4a68 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 18:48:14 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.7ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x93a6e1c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x93a6c14 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x93a4a68 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-04-08 18:48:20 -0800
+
+ActionController::RoutingError (The controller-level `respond_to' feature has been extracted to the `responders` gem. Add it to your Gemfile to continue using this feature:
+  gem 'responders', '~> 2.0'
+Consult the Rails upgrade guide for details.):
+  app/controllers/entries_controller.rb:2:in `<class:EntriesController>'
+  app/controllers/entries_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.8ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x93a6e1c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x93a6c14 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x93a4a68 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PUT "/entries" for 127.0.0.1 at 2015-04-08 18:48:22 -0800
+
+ActionController::RoutingError (No route matches [PUT] "/entries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.8ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x93a6e1c @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x93a6c14 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x93a4a68 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
