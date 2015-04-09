@@ -158,3 +158,24 @@ Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127
 
 
 Started GET "/assets/application-15056d4e50e3cf779161177a6f1df2c2.js?body=1" for 127.0.0.1 at 2015-04-08 16:28:41 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 16:45:28 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 267ms (Views: 258.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/raffle-e249fcfb07178ae933d97e9d75bd5086.js?body=1" for 127.0.0.1 at 2015-04-08 16:45:29 -0800
+
+
+Started GET "/assets/application-845873b84a7cd2e59a0e6548e33bc151.js?body=1" for 127.0.0.1 at 2015-04-08 16:45:29 -0800
+
+
+Started GET "/assets/application-a05ba614d6ad233c9cfbb0a2275208cd.css?body=1" for 127.0.0.1 at 2015-04-08 16:45:29 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-04-08 16:45:29 -0800
+
+
+Started GET "/assets/raffle-a33a12c93c31609bf4fc7da4b2008dcf.css?body=1" for 127.0.0.1 at 2015-04-08 16:45:29 -0800
