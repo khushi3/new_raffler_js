@@ -1,9 +1,9 @@
-<h1>Raffler</h1>
+<h1>Project List</h1>
 
 <div ng-controller="RaffleCtrl">
   <form ng-submit="addEntry()">
     <input type="text" ng-model="newEntry.name">
-    <input type="submit" value="Add">
+    <input type="submit" value="Add project">
   </form>
 
   <ul>
@@ -12,6 +12,21 @@
       <span ng-show="entry.winner" ng-class="{highlight: entry == lastWinner}" class="winner">WINNER</span>
     </li>
   </ul>
+</div>
 
-  <button ng-click="drawWinner()">Draw Winner</button>
+
+<h1>Task List</h1>
+
+<div ng-controller="RaffleCtrl">
+  <form ng-submit="addEntry()">
+    <input type="text" ng-model="newEntry.name">
+    <input type="submit" value="Add task">
+  </form>
+
+  <ul>
+    <li ng-repeat="entry in entries">
+      {{entry.name}}
+      <span ng-show="entry.winner" ng-class="{highlight: entry == lastWinner}" class="winner">WINNER</span>
+    </li>
+  </ul>
 </div>

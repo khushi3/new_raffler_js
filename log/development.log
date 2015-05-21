@@ -4178,3 +4178,2811 @@ Started GET "/entries" for 127.0.0.1 at 2015-04-09 12:38:04 -0800
 Processing by EntriesController#index as JSON
   [1m[36mEntry Load (0.4ms)[0m  [1mSELECT "entries".* FROM "entries"[0m
 Completed 200 OK in 12ms (Views: 8.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/raffle" for 127.0.0.1 at 2015-05-20 16:12:07 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/raffle"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (44.1ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (30.9ms)
+
+
+Started GET "/raffles" for 127.0.0.1 at 2015-05-20 16:13:23 -0800
+
+ActionController::RoutingError (No route matches [GET] "/raffles"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.1ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (30.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 16:13:28 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 103ms (Views: 102.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 16:13:28 -0800
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 16:13:28 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 16:13:28 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 16:13:28 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 16:13:28 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 16:13:29 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 16:13:29 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 16:13:29 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 16:13:29 -0800
+Processing by EntriesController#index as JSON
+  [1m[35mEntry Load (0.3ms)[0m  SELECT "entries".* FROM "entries"
+Completed 200 OK in 21ms (Views: 14.0ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 16:13:36 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"name"=>"ddd", "entry"=>{"name"=>"ddd"}}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "ddd"], ["created_at", "2015-05-21 00:13:36.940746"], ["updated_at", "2015-05-21 00:13:36.940746"]]
+  [1m[36m (84.7ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 96ms (Views: 1.5ms | ActiveRecord: 85.1ms)
+  [1m[36m (87.9ms)[0m  [1mCREATE TABLE "entries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "winner" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (76.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (78.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (77.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150409012316')
+  [1m[36m (76.3ms)[0m  [1mCREATE TABLE "entries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "winner" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (77.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (77.2ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (76.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150409012316')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Matz"], ["created_at", "2015-05-21 00:16:33.055731"], ["updated_at", "2015-05-21 00:16:33.055731"]]
+  [1m[35m (75.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "DHH"], ["created_at", "2015-05-21 00:16:33.134460"], ["updated_at", "2015-05-21 00:16:33.134460"]]
+  [1m[36m (76.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "kunal"], ["created_at", "2015-05-21 00:16:33.212431"], ["updated_at", "2015-05-21 00:16:33.212431"]]
+  [1m[35m (76.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Naresh"], ["created_at", "2015-05-21 00:16:33.290740"], ["updated_at", "2015-05-21 00:16:33.290740"]]
+  [1m[36m (76.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Nandan"], ["created_at", "2015-05-21 00:16:33.368907"], ["updated_at", "2015-05-21 00:16:33.368907"]]
+  [1m[35m (76.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Micky"], ["created_at", "2015-05-21 00:16:33.447077"], ["updated_at", "2015-05-21 00:16:33.447077"]]
+  [1m[36m (76.1ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 16:16:40 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 37ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 16:16:40 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 16:16:40 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 16:16:40 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 16:16:40 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 16:16:40 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 16:16:40 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 16:16:40 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 16:16:40 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 16:16:40 -0800
+Processing by EntriesController#index as JSON
+  [1m[35mEntry Load (0.4ms)[0m  SELECT "entries".* FROM "entries"
+Completed 200 OK in 14ms (Views: 10.8ms | ActiveRecord: 0.4ms)
+  [1m[36m (87.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (77.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateEntries (20150409012316)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "entries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "winner" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150409012316"]]
+  [1m[35m (74.6ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 16:17:26 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 16:17:26 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 16:17:26 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 16:17:26 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 16:17:26 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 16:17:26 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 16:17:26 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 16:17:26 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 16:17:26 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 16:17:26 -0800
+Processing by EntriesController#index as JSON
+  [1m[36mEntry Load (0.3ms)[0m  [1mSELECT "entries".* FROM "entries"[0m
+Completed 200 OK in 7ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 16:17:31 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"name"=>"try", "entry"=>{"name"=>"try"}}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "try"], ["created_at", "2015-05-21 00:17:31.851062"], ["updated_at", "2015-05-21 00:17:31.851062"]]
+  [1m[35m (80.9ms)[0m  commit transaction
+Completed 201 Created in 93ms (Views: 1.4ms | ActiveRecord: 81.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 16:19:32 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 16:19:32 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 16:19:32 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 16:19:32 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 16:19:32 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 16:19:32 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 16:19:32 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 16:19:32 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 16:19:32 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 16:19:32 -0800
+Processing by EntriesController#index as JSON
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries"[0m
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 16:19:32 -0800
+Processing by EntriesController#index as JSON
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries"
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 16:19:36 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"name"=>"eee", "entry"=>{"name"=>"eee"}}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "eee"], ["created_at", "2015-05-21 00:19:36.347215"], ["updated_at", "2015-05-21 00:19:36.347215"]]
+  [1m[36m (89.3ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 96ms (Views: 0.6ms | ActiveRecord: 89.7ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 16:19:50 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"name"=>"onlife", "entry"=>{"name"=>"onlife"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "onlife"], ["created_at", "2015-05-21 00:19:50.500936"], ["updated_at", "2015-05-21 00:19:50.500936"]]
+  [1m[35m (88.4ms)[0m  commit transaction
+Completed 201 Created in 95ms (Views: 0.6ms | ActiveRecord: 88.8ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 16:19:56 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"name"=>"liveon", "entry"=>{"name"=>"liveon"}}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "liveon"], ["created_at", "2015-05-21 00:19:56.475513"], ["updated_at", "2015-05-21 00:19:56.475513"]]
+  [1m[36m (104.4ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 110ms (Views: 0.6ms | ActiveRecord: 104.7ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20150521002538)
+  [1m[35m (0.1ms)[0m  begin transaction
+DEPRECATION WARNING: `#timestamp` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in change at /home/user/new_raffler_js/db/migrate/20150521002538_devise_create_users.rb:34)
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.3ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150521002538"]]
+  [1m[36m (77.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-05-20 16:26:26 -0800
+
+NoMethodError (undefined method `devise' for User (call 'User.connection' to establish a connection):Class):
+  app/models/user.rb:4:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  config/routes.rb:2:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.6ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (32.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 16:32:23 -0800
+
+NoMethodError (undefined method `devise' for User (call 'User.connection' to establish a connection):Class):
+  app/models/user.rb:4:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  config/routes.rb:2:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.1ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (30.9ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddDeviseToUsers (20150521003701)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "users" ADD "email" varchar DEFAULT '' NOT NULL[0m
+SQLite3::SQLException: duplicate column name: email: ALTER TABLE "users" ADD "email" varchar DEFAULT '' NOT NULL
+  [1m[35m (0.0ms)[0m  rollback transaction
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-05-20 16:38:39 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.0) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.0) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.9ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.0ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (31.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20150521004418)
+  [1m[35m (0.1ms)[0m  begin transaction
+DEPRECATION WARNING: `#timestamp` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in change at /home/user/new_raffler_js/db/migrate/20150521004418_devise_create_users.rb:34)
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime, "updated_at" datetime) [0m
+SQLite3::SQLException: table "users" already exists: CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime, "updated_at" datetime) 
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20150521004418)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "users"[0m
+DEPRECATION WARNING: `#timestamp` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in change at /home/user/new_raffler_js/db/migrate/20150521004418_devise_create_users.rb:36)
+  [1m[35m (0.2ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150521004418"]]
+  [1m[35m (91.0ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 16:50:02 -0800
+
+NoMethodError (undefined method `devise' for #<Class:0x8cac92c>):
+  app/models/user.rb:4:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  config/routes.rb:3:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (16.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (32.9ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-05-20 17:12:40 -0800
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+ActionController::RoutingError (No route matches [GET] "/users/sign_up"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.7ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.5ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (16.1ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (32.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 17:15:45 -0800
+
+NoMethodError (undefined method `devise' for #<Class:0xb5e84634>):
+  app/models/user.rb:4:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  config/routes.rb:2:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.9ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (32.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 17:15:47 -0800
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.1ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.6ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (31.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 17:15:55 -0800
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.8ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (31.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 17:19:54 -0800
+
+NoMethodError (undefined method `devise' for #<Class:0xb629fd40>):
+  app/models/user.rb:4:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  config/routes.rb:2:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.6ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (31.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 17:21:37 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 56ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 17:21:37 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 17:21:37 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 17:21:37 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 17:21:37 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 17:21:37 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 17:21:37 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 17:21:37 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 17:21:37 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 17:21:37 -0800
+Processing by EntriesController#index as JSON
+  [1m[36mEntry Load (0.4ms)[0m  [1mSELECT "entries".* FROM "entries"[0m
+Completed 200 OK in 14ms (Views: 7.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 17:21:37 -0800
+Processing by EntriesController#index as JSON
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries"
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 17:21:50 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"name"=>"coachon", "entry"=>{"name"=>"coachon"}}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "coachon"], ["created_at", "2015-05-21 01:21:50.501922"], ["updated_at", "2015-05-21 01:21:50.501922"]]
+  [1m[36m (90.9ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 103ms (Views: 1.3ms | ActiveRecord: 91.4ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 17:21:55 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"name"=>"wert", "entry"=>{"name"=>"wert"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "wert"], ["created_at", "2015-05-21 01:21:55.661339"], ["updated_at", "2015-05-21 01:21:55.661339"]]
+  [1m[35m (109.2ms)[0m  commit transaction
+Completed 201 Created in 115ms (Views: 0.6ms | ActiveRecord: 109.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddDeviseToUsers (20150521013559)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "users" ADD "email" varchar DEFAULT '' NOT NULL[0m
+SQLite3::SQLException: duplicate column name: email: ALTER TABLE "users" ADD "email" varchar DEFAULT '' NOT NULL
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (88.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (77.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateEntries (20150409012316)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "entries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "winner" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150409012316"]]
+  [1m[35m (78.1ms)[0m  commit transaction
+Migrating to AddDeviseToUsers (20150521013559)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddDeviseToUsers (20150521013559)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD "email" varchar DEFAULT '' NOT NULL[0m
+SQLite3::SQLException: no such table: users: ALTER TABLE "users" ADD "email" varchar DEFAULT '' NOT NULL
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20150521015457)
+  [1m[35m (0.1ms)[0m  begin transaction
+DEPRECATION WARNING: `#timestamp` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in change at /home/user/new_raffler_js/db/migrate/20150521015457_devise_create_users.rb:34)
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150521015457"]]
+  [1m[36m (86.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 17:55:58 -0800
+
+NoMethodError (undefined method `devise' for User (call 'User.connection' to establish a connection):Class):
+  app/models/user.rb:4:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  config/routes.rb:4:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.9ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (32.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:01:43 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.6ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (19.6ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.6ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (31.1ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-05-20 18:02:24 -0800
+
+ActionController::RoutingError (No route matches [GET] "/users/sign_up"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.0ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (16.0ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (33.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (83.8ms)[0m  [1mCREATE TABLE "entries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "winner" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (78.4ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (75.7ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (72.3ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (73.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (73.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (74.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150521015457')
+  [1m[36m (75.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150409012316')[0m
+  [1m[35m (72.0ms)[0m  CREATE TABLE "entries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "winner" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (73.6ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (98.0ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (73.9ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35m (73.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (74.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (73.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150521015457')[0m
+  [1m[35m (75.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150409012316')
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Matz"], ["created_at", "2015-05-21 02:03:25.870235"], ["updated_at", "2015-05-21 02:03:25.870235"]]
+  [1m[35m (74.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "DHH"], ["created_at", "2015-05-21 02:03:25.946395"], ["updated_at", "2015-05-21 02:03:25.946395"]]
+  [1m[36m (71.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "kunal"], ["created_at", "2015-05-21 02:03:26.020437"], ["updated_at", "2015-05-21 02:03:26.020437"]]
+  [1m[35m (72.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Naresh"], ["created_at", "2015-05-21 02:03:26.095782"], ["updated_at", "2015-05-21 02:03:26.095782"]]
+  [1m[36m (71.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Nandan"], ["created_at", "2015-05-21 02:03:26.169759"], ["updated_at", "2015-05-21 02:03:26.169759"]]
+  [1m[35m (75.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Micky"], ["created_at", "2015-05-21 02:03:26.247199"], ["updated_at", "2015-05-21 02:03:26.247199"]]
+  [1m[36m (73.5ms)[0m  [1mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-05-20 18:04:10 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (3.0ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/registrations/new.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 119ms (Views: 87.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:04:10 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:04:10 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:04:10 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:04:10 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:04:10 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:04:10 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:04:10 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:04:10 -0800
+
+
+Started POST "/users" for 127.0.0.1 at 2015-05-20 18:04:38 -0800
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mxDV7iKNled4OWV6lUHVDzHrha9Mgaa7uF09fOvphL2wpZXYEYRLt513brez3/5c8rWNJznmfz/W2KMjzZlMJw==", "user"=>{"email"=>"khushi3july@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'khushi3july@gmail.com' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "khushi3july@gmail.com"], ["encrypted_password", "$2a$10$RCnY6l7IIP5E4cjZCRBAuuUEY67hpUjiO1T5.lOO/Pi.adY.yoXWu"], ["created_at", "2015-05-21 02:04:38.994899"], ["updated_at", "2015-05-21 02:04:38.994899"]]
+  [1m[35m (75.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2015-05-21 02:04:39.072742"], ["current_sign_in_at", "2015-05-21 02:04:39.072742"], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", "2015-05-21 02:04:39.074345"], ["id", 1]]
+  [1m[36m (77.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 272ms (ActiveRecord: 154.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:04:39 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:04:39 -0800
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:04:39 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:04:39 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:04:39 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:04:39 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:04:39 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:04:39 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:04:39 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:04:39 -0800
+Processing by EntriesController#index as JSON
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries"
+Completed 200 OK in 10ms (Views: 5.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:04:39 -0800
+Processing by EntriesController#index as JSON
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries"[0m
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 18:04:48 -0800
+Processing by EntriesController#create as JSON
+Completed 400 Bad Request in 1ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: entry):
+  app/controllers/entries_controller.rb:25:in `entry_params'
+  app/controllers/entries_controller.rb:14:in `create'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (17.1ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (31.5ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 18:04:50 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"entry"=>{}}
+Completed 400 Bad Request in 1ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: entry):
+  app/controllers/entries_controller.rb:25:in `entry_params'
+  app/controllers/entries_controller.rb:14:in `create'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (17.0ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9c25228 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9c25020 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9c13348 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 18:04:51 -0800
+Processing by EntriesController#create as JSON
+Completed 400 Bad Request in 1ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: entry):
+  app/controllers/entries_controller.rb:25:in `entry_params'
+  app/controllers/entries_controller.rb:14:in `create'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (17.7ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.5ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (31.6ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 18:04:52 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"entry"=>{}}
+Completed 400 Bad Request in 1ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: entry):
+  app/controllers/entries_controller.rb:25:in `entry_params'
+  app/controllers/entries_controller.rb:14:in `create'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.9ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (17.1ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9c25228 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9c25020 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9c13348 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 18:04:53 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"entry"=>{}}
+Completed 400 Bad Request in 1ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: entry):
+  app/controllers/entries_controller.rb:25:in `entry_params'
+  app/controllers/entries_controller.rb:14:in `create'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.5ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (16.8ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9c25228 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9c25020 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9c13348 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 18:04:54 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"entry"=>{}}
+Completed 400 Bad Request in 1ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: entry):
+  app/controllers/entries_controller.rb:25:in `entry_params'
+  app/controllers/entries_controller.rb:14:in `create'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.9ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (17.1ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9c25228 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9c25020 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9c13348 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 18:04:55 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"entry"=>{}}
+Completed 400 Bad Request in 1ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: entry):
+  app/controllers/entries_controller.rb:25:in `entry_params'
+  app/controllers/entries_controller.rb:14:in `create'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (21.8ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9c25228 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9c25020 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9c13348 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 18:04:55 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"entry"=>{}}
+Completed 400 Bad Request in 1ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: entry):
+  app/controllers/entries_controller.rb:25:in `entry_params'
+  app/controllers/entries_controller.rb:14:in `create'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.9ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (17.8ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9c25228 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9c25020 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9c13348 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 18:04:55 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"entry"=>{}}
+Completed 400 Bad Request in 1ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: entry):
+  app/controllers/entries_controller.rb:25:in `entry_params'
+  app/controllers/entries_controller.rb:14:in `create'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (21.2ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9c25228 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9c25020 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9c13348 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 18:04:55 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"entry"=>{}}
+Completed 400 Bad Request in 1ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: entry):
+  app/controllers/entries_controller.rb:25:in `entry_params'
+  app/controllers/entries_controller.rb:14:in `create'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.9ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (17.3ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9c25228 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9c25020 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9c13348 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 18:04:55 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"entry"=>{}}
+Completed 400 Bad Request in 1ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: entry):
+  app/controllers/entries_controller.rb:25:in `entry_params'
+  app/controllers/entries_controller.rb:14:in `create'
+
+
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (17.3ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x9c25228 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x9c25020 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x9c13348 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:08:41 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 41ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:08:41 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:08:41 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:08:41 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:08:41 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:08:41 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:08:41 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:08:41 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:08:41 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:08:41 -0800
+Processing by EntriesController#index as JSON
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries"
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:08:41 -0800
+Processing by EntriesController#index as JSON
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries"[0m
+Completed 200 OK in 6ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 18:08:49 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"name"=>"onlife", "entry"=>{"name"=>"onlife"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "onlife"], ["created_at", "2015-05-21 02:08:49.664034"], ["updated_at", "2015-05-21 02:08:49.664034"]]
+  [1m[35m (113.6ms)[0m  commit transaction
+Completed 201 Created in 121ms (Views: 1.3ms | ActiveRecord: 113.9ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 18:08:56 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"name"=>"liveon", "entry"=>{"name"=>"liveon"}}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "liveon"], ["created_at", "2015-05-21 02:08:56.497931"], ["updated_at", "2015-05-21 02:08:56.497931"]]
+  [1m[36m (83.3ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 90ms (Views: 0.6ms | ActiveRecord: 83.5ms)
+  [1m[36m (82.7ms)[0m  [1mCREATE TABLE "entries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "winner" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (77.7ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (75.9ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (72.6ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (72.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (72.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (74.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150521015457')
+  [1m[36m (75.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150409012316')[0m
+  [1m[35m (71.9ms)[0m  CREATE TABLE "entries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "winner" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (73.8ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (97.8ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (74.0ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35m (73.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (74.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (74.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150521015457')[0m
+  [1m[35m (73.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150409012316')
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Matz"], ["created_at", "2015-05-21 02:13:16.594189"], ["updated_at", "2015-05-21 02:13:16.594189"]]
+  [1m[35m (73.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "DHH"], ["created_at", "2015-05-21 02:13:16.669692"], ["updated_at", "2015-05-21 02:13:16.669692"]]
+  [1m[36m (71.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "kunal"], ["created_at", "2015-05-21 02:13:16.743902"], ["updated_at", "2015-05-21 02:13:16.743902"]]
+  [1m[35m (72.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Naresh"], ["created_at", "2015-05-21 02:13:16.819146"], ["updated_at", "2015-05-21 02:13:16.819146"]]
+  [1m[36m (71.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Nandan"], ["created_at", "2015-05-21 02:13:16.893176"], ["updated_at", "2015-05-21 02:13:16.893176"]]
+  [1m[35m (75.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Micky"], ["created_at", "2015-05-21 02:13:16.970628"], ["updated_at", "2015-05-21 02:13:16.970628"]]
+  [1m[36m (74.0ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:13:33 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:13:33 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:13:33 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:13:33 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:13:33 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:13:33 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:13:33 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:13:33 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:13:33 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:13:33 -0800
+Processing by EntriesController#index as JSON
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries"
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:13:33 -0800
+Processing by EntriesController#index as JSON
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries"[0m
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 0.2ms)
+  [1m[36m (100.4ms)[0m  [1mCREATE TABLE "entries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "winner" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (78.6ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (74.3ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (73.1ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (73.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (75.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (73.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150521015457')
+  [1m[36m (75.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150409012316')[0m
+  [1m[35m (74.1ms)[0m  CREATE TABLE "entries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "winner" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (72.9ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (74.8ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (74.6ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35m (75.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (75.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (75.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150521015457')[0m
+  [1m[35m (74.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150409012316')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Matz"], ["created_at", "2015-05-21 02:14:32.310406"], ["updated_at", "2015-05-21 02:14:32.310406"]]
+  [1m[35m (79.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "DHH"], ["created_at", "2015-05-21 02:14:32.391389"], ["updated_at", "2015-05-21 02:14:32.391389"]]
+  [1m[36m (74.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "kunal"], ["created_at", "2015-05-21 02:14:32.467881"], ["updated_at", "2015-05-21 02:14:32.467881"]]
+  [1m[35m (72.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Naresh"], ["created_at", "2015-05-21 02:14:32.542443"], ["updated_at", "2015-05-21 02:14:32.542443"]]
+  [1m[36m (73.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Nandan"], ["created_at", "2015-05-21 02:14:32.618642"], ["updated_at", "2015-05-21 02:14:32.618642"]]
+  [1m[35m (73.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Micky"], ["created_at", "2015-05-21 02:14:32.694596"], ["updated_at", "2015-05-21 02:14:32.694596"]]
+  [1m[36m (72.5ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:14:42 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 40ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:14:42 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:14:42 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:14:42 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:14:42 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:14:42 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:14:42 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:14:42 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:14:42 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:14:42 -0800
+Processing by EntriesController#index as JSON
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries"
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:14:42 -0800
+Processing by EntriesController#index as JSON
+  [1m[36mEntry Load (0.3ms)[0m  [1mSELECT "entries".* FROM "entries"[0m
+Completed 200 OK in 8ms (Views: 5.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:15:15 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 81ms (Views: 71.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:15:15 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:15:15 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:15:15 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:15:15 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:15:15 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:15:15 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:15:15 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:15:15 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:15:15 -0800
+Processing by EntriesController#index as JSON
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries"
+Completed 200 OK in 34ms (Views: 26.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:15:15 -0800
+Processing by EntriesController#index as JSON
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries"[0m
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:15:52 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 35ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:15:52 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:15:52 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:15:52 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:15:52 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:15:52 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:15:52 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:15:52 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:15:52 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:15:52 -0800
+Processing by EntriesController#index as JSON
+  [1m[35mEntry Load (0.3ms)[0m  SELECT "entries".* FROM "entries"
+Completed 200 OK in 8ms (Views: 4.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:15:52 -0800
+Processing by EntriesController#index as JSON
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries"[0m
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-05-20 18:16:03 -0800
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (3.1ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/registrations/new.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 79ms (Views: 59.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:03 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:03 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:03 -0800
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:03 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:03 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:03 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:03 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:03 -0800
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 18:16:08 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (5.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:08 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:08 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:08 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:08 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:08 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:08 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:08 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:08 -0800
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-05-20 18:16:10 -0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0dAEVzT3NZ5wAX79S2ObXU6VihEv1IHsO6WaC27wL5H6ZURhB/7rzpVPdTBt/bAOjcuCmVqzWGhVIARUSIDnCw==", "user"=>{"email"=>"khushi3july@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "khushi3july@gmail.com"]]
+Completed 401 Unauthorized in 2ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0dAEVzT3NZ5wAX79S2ObXU6VihEv1IHsO6WaC27wL5H6ZURhB/7rzpVPdTBt/bAOjcuCmVqzWGhVIARUSIDnCw==", "user"=>{"email"=>"khushi3july@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (1.8ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 136ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:10 -0800
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:10 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:10 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:10 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:10 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:10 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:10 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:10 -0800
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-05-20 18:16:19 -0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"K0OBrT5wOo7yhf6PmyF/PYR73So1vlVyg6sRs8y01FMA9sGbDXnk3hfL9UK9v1RuRyXVokDZjPbtLo/s6sQcyQ==", "user"=>{"email"=>"khushi3july@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "khushi3july@gmail.com"]]
+Completed 401 Unauthorized in 2ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"K0OBrT5wOo7yhf6PmyF/PYR73So1vlVyg6sRs8y01FMA9sGbDXnk3hfL9UK9v1RuRyXVokDZjPbtLo/s6sQcyQ==", "user"=>{"email"=>"khushi3july@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (1.8ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 135ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:19 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:19 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:19 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:19 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:19 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:19 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:19 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:19 -0800
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-05-20 18:16:47 -0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qS0f5G9W7EvuUNZO/fVIRXEDCZv9rBo/8GiB01wkO+CCmF/SXF8yGwse3YPba2MWsl0BE4jLw7ue7R+MelTzeg==", "user"=>{"email"=>"khush@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "khush@gmail.com"]]
+Completed 401 Unauthorized in 1ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qS0f5G9W7EvuUNZO/fVIRXEDCZv9rBo/8GiB01wkO+CCmF/SXF8yGwse3YPba2MWsl0BE4jLw7ue7R+MelTzeg==", "user"=>{"email"=>"khush@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (1.8ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 134ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:47 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:47 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:47 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:47 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:47 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:47 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:47 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:47 -0800
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-05-20 18:16:49 -0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (2.1ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/registrations/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:49 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:49 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:49 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:49 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:49 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:49 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:49 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:49 -0800
+
+
+Started POST "/users" for 127.0.0.1 at 2015-05-20 18:17:09 -0800
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QDLwfyaJFfW5cIjEeRONpPZGfKy23bweADkEKjgb+7Vrh7BJFYDLpVw+gwlfjab3NRh0JMO6ZZpuvJp1HmszLw==", "user"=>{"email"=>"khush@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'khush@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "khush@gmail.com"], ["encrypted_password", "$2a$10$B3QjHF0PeDA4foUUMkRPX.ktdQiDxHox6hAY03qaaH6lZAc19tTdO"], ["created_at", "2015-05-21 02:17:09.118772"], ["updated_at", "2015-05-21 02:17:09.118772"]]
+  [1m[36m (72.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2015-05-21 02:17:09.193234"], ["current_sign_in_at", "2015-05-21 02:17:09.193234"], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", "2015-05-21 02:17:09.194865"], ["id", 1]]
+  [1m[35m (77.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 261ms (ActiveRecord: 150.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:17:09 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:17:09 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:17:09 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:17:09 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:17:09 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:17:09 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:17:09 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:17:09 -0800
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:17:09 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:17:09 -0800
+Processing by EntriesController#index as JSON
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries"[0m
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:17:09 -0800
+Processing by EntriesController#index as JSON
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries"
+Completed 200 OK in 12ms (Views: 9.3ms | ActiveRecord: 0.2ms)
+  [1m[36m (90.4ms)[0m  [1mCREATE TABLE "entries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "winner" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (78.1ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (72.3ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (73.9ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (92.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (73.2ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (74.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150521015457')
+  [1m[36m (82.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150409012316')[0m
+  [1m[35m (123.7ms)[0m  CREATE TABLE "entries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "winner" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (73.6ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (72.9ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (73.9ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35m (76.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (73.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (75.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150521015457')[0m
+  [1m[35m (76.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150409012316')
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Matz"], ["created_at", "2015-05-21 02:18:25.556287"], ["updated_at", "2015-05-21 02:18:25.556287"]]
+  [1m[35m (71.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "DHH"], ["created_at", "2015-05-21 02:18:25.629441"], ["updated_at", "2015-05-21 02:18:25.629441"]]
+  [1m[36m (73.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "kunal"], ["created_at", "2015-05-21 02:18:25.705152"], ["updated_at", "2015-05-21 02:18:25.705152"]]
+  [1m[35m (72.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Naresh"], ["created_at", "2015-05-21 02:18:25.779835"], ["updated_at", "2015-05-21 02:18:25.779835"]]
+  [1m[36m (74.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Nandan"], ["created_at", "2015-05-21 02:18:25.855830"], ["updated_at", "2015-05-21 02:18:25.855830"]]
+  [1m[35m (74.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Micky"], ["created_at", "2015-05-21 02:18:25.932017"], ["updated_at", "2015-05-21 02:18:25.932017"]]
+  [1m[36m (72.5ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:19:41 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 81ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:42 -0800
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:42 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:42 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:42 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:42 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:42 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:42 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:42 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:19:42 -0800
+Processing by EntriesController#index as JSON
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries"
+Completed 200 OK in 13ms (Views: 6.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:19:42 -0800
+Processing by EntriesController#index as JSON
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries"[0m
+Completed 200 OK in 23ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:19:44 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 34ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:44 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:44 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:44 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:44 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:44 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:44 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:44 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:44 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:19:44 -0800
+Processing by EntriesController#index as JSON
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries"
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:19:44 -0800
+Processing by EntriesController#index as JSON
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries"[0m
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-05-20 18:19:50 -0800
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (3.0ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/registrations/new.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 80ms (Views: 63.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-05-20 18:19:50 -0800
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (2.1ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/registrations/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 44ms (Views: 41.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:50 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:50 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:50 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:50 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:50 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:50 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:50 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:50 -0800
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 18:19:57 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (4.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 47ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:57 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:57 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:57 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:57 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:57 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:57 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:57 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:57 -0800
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-05-20 18:20:00 -0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S6ZW82VOnJDJNdsff6qwEafZI5QCjbLBN+gsFhpPmzJgExbFVkdCwCx70NJZNJtCZIcrHHfqa0VZbbJJPD9TqA==", "user"=>{"email"=>"khushi3july@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "khushi3july@gmail.com"]]
+Completed 401 Unauthorized in 2ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S6ZW82VOnJDJNdsff6qwEafZI5QCjbLBN+gsFhpPmzJgExbFVkdCwCx70NJZNJtCZIcrHHfqa0VZbbJJPD9TqA==", "user"=>{"email"=>"khushi3july@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (2.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 141ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:20:00 -0800
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:20:00 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:20:00 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:20:00 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:20:00 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:20:00 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:20:00 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:20:00 -0800
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-05-20 18:20:13 -0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zCz1ZrcZfKQp8i4QqjgGG3FmHKExx+VCnqwUCm6iu5vnmbVQhBCi9My8Jd2Mpi1IsjgUKUSgPMbwKYpVSNJzAQ==", "user"=>{"email"=>"khushi3july@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "khushi3july@gmail.com"]]
+Completed 401 Unauthorized in 3ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zCz1ZrcZfKQp8i4QqjgGG3FmHKExx+VCnqwUCm6iu5vnmbVQhBCi9My8Jd2Mpi1IsjgUKUSgPMbwKYpVSNJzAQ==", "user"=>{"email"=>"khushi3july@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (2.1ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 137ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:20:14 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:20:14 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:20:14 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:20:14 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:20:14 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:20:14 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:20:14 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:20:14 -0800
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-05-20 18:20:26 -0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (1.2ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/registrations/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 45ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:20:26 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:20:26 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:20:26 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:20:26 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:20:26 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:20:26 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:20:26 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:20:26 -0800
+
+
+Started POST "/users" for 127.0.0.1 at 2015-05-20 18:20:50 -0800
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n+ht8AJndGbH7YKMu1HJInD0cx+A6mzBZze8d6e25ca0XS3GMW6qNiKjiUGdz+Jxs6p7l/WNtUUJsiIogcYtXA==", "user"=>{"email"=>"deepak@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'deepak@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "deepak@gmail.com"], ["encrypted_password", "$2a$10$5c4Cco/647KoG2H.lxHGquERODfxPAL/YB7Sud24QUDDUCdUVTEa2"], ["created_at", "2015-05-21 02:20:50.174878"], ["updated_at", "2015-05-21 02:20:50.174878"]]
+  [1m[36m (107.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2015-05-21 02:20:50.284184"], ["current_sign_in_at", "2015-05-21 02:20:50.284184"], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", "2015-05-21 02:20:50.285852"], ["id", 1]]
+  [1m[35m (78.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 305ms (ActiveRecord: 186.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:20:50 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:20:50 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:20:50 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:20:50 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:20:50 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:20:50 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:20:50 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:20:50 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:20:50 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:20:50 -0800
+Processing by EntriesController#index as JSON
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries"[0m
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:20:50 -0800
+Processing by EntriesController#index as JSON
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries"
+Completed 200 OK in 5ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 18:20:55 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"name"=>"qwe", "entry"=>{"name"=>"qwe"}}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "qwe"], ["created_at", "2015-05-21 02:20:55.706769"], ["updated_at", "2015-05-21 02:20:55.706769"]]
+  [1m[36m (84.4ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 91ms (Views: 1.2ms | ActiveRecord: 84.6ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-20 18:20:59 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"name"=>"cvb", "entry"=>{"name"=>"cvb"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "cvb"], ["created_at", "2015-05-21 02:20:59.714803"], ["updated_at", "2015-05-21 02:20:59.714803"]]
+  [1m[35m (115.8ms)[0m  commit transaction
+Completed 201 Created in 122ms (Views: 0.6ms | ActiveRecord: 116.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Matz"], ["created_at", "2015-05-21 02:32:50.253694"], ["updated_at", "2015-05-21 02:32:50.253694"]]
+  [1m[35m (82.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "DHH"], ["created_at", "2015-05-21 02:32:50.339391"], ["updated_at", "2015-05-21 02:32:50.339391"]]
+  [1m[36m (80.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "kunal"], ["created_at", "2015-05-21 02:32:50.422364"], ["updated_at", "2015-05-21 02:32:50.422364"]]
+  [1m[35m (73.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Naresh"], ["created_at", "2015-05-21 02:32:50.497928"], ["updated_at", "2015-05-21 02:32:50.497928"]]
+  [1m[36m (73.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Nandan"], ["created_at", "2015-05-21 02:32:50.573924"], ["updated_at", "2015-05-21 02:32:50.573924"]]
+  [1m[35m (72.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Micky"], ["created_at", "2015-05-21 02:32:50.648591"], ["updated_at", "2015-05-21 02:32:50.648591"]]
+  [1m[36m (73.8ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:33:11 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 80ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-20 18:33:11 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-20 18:33:11 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-20 18:33:11 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-20 18:33:11 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-20 18:33:11 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-20 18:33:11 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-20 18:33:11 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-20 18:33:11 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:33:11 -0800
+Processing by EntriesController#index as JSON
+  [1m[35mEntry Load (0.4ms)[0m  SELECT "entries".* FROM "entries"
+Completed 200 OK in 38ms (Views: 28.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-20 18:33:11 -0800
+Processing by EntriesController#index as JSON
+  [1m[36mEntry Load (0.3ms)[0m  [1mSELECT "entries".* FROM "entries"[0m
+Completed 200 OK in 11ms (Views: 7.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 11:24:31 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 82ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-21 11:24:31 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-21 11:24:32 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-21 11:24:32 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-21 11:24:32 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-21 11:24:32 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-21 11:24:32 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-21 11:24:32 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-21 11:24:32 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-21 11:24:32 -0800
+Processing by EntriesController#index as JSON
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries"
+Completed 200 OK in 36ms (Views: 29.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-21 11:24:32 -0800
+Processing by EntriesController#index as JSON
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries"[0m
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.2ms)
+  [1m[36m (70.9ms)[0m  [1mCREATE TABLE "entries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "winner" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (77.6ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (73.4ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (73.8ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (72.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (72.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (74.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150521015457')
+  [1m[36m (82.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150409012316')[0m
+  [1m[35m (73.1ms)[0m  CREATE TABLE "entries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "winner" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (74.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (75.1ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (74.6ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35m (73.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (150.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (98.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150521015457')[0m
+  [1m[35m (75.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150409012316')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Matz"], ["created_at", "2015-05-21 19:28:50.790738"], ["updated_at", "2015-05-21 19:28:50.790738"]]
+  [1m[35m (75.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "DHH"], ["created_at", "2015-05-21 19:28:50.868778"], ["updated_at", "2015-05-21 19:28:50.868778"]]
+  [1m[36m (148.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "kunal"], ["created_at", "2015-05-21 19:28:51.019362"], ["updated_at", "2015-05-21 19:28:51.019362"]]
+  [1m[35m (71.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Naresh"], ["created_at", "2015-05-21 19:28:51.093236"], ["updated_at", "2015-05-21 19:28:51.093236"]]
+  [1m[36m (73.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Nandan"], ["created_at", "2015-05-21 19:28:51.168585"], ["updated_at", "2015-05-21 19:28:51.168585"]]
+  [1m[35m (73.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Micky"], ["created_at", "2015-05-21 19:28:51.243996"], ["updated_at", "2015-05-21 19:28:51.243996"]]
+  [1m[36m (71.9ms)[0m  [1mcommit transaction[0m
+  [1m[36m (91.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (74.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateEntries (20150409012316)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "entries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "winner" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150409012316"]]
+  [1m[35m (75.0ms)[0m  commit transaction
+Migrating to DeviseCreateUsers (20150521015457)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+DEPRECATION WARNING: `#timestamp` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in change at /home/user/new_raffler_js/db/migrate/20150521015457_devise_create_users.rb:34)
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.3ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.3ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150521015457"]]
+  [1m[36m (75.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 11:29:28 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 82ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-21 11:29:28 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-21 11:29:28 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-21 11:29:28 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-21 11:29:28 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-21 11:29:28 -0800
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-21 11:29:28 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-21 11:29:28 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-21 11:29:28 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-21 11:29:28 -0800
+Processing by EntriesController#index as JSON
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries"
+Completed 200 OK in 8ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-21 11:29:28 -0800
+Processing by EntriesController#index as JSON
+  [1m[36mEntry Load (0.1ms)[0m  [1mSELECT "entries".* FROM "entries"[0m
+Completed 200 OK in 21ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-05-21 11:29:35 -0800
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (3.0ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/registrations/new.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 80ms (Views: 61.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-21 11:29:36 -0800
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-21 11:29:36 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-21 11:29:36 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-21 11:29:36 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-21 11:29:36 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-21 11:29:36 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-21 11:29:36 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-21 11:29:36 -0800
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 11:29:43 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (4.3ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 51ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-21 11:29:43 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-21 11:29:43 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-21 11:29:43 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-21 11:29:43 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-21 11:29:43 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-21 11:29:43 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-21 11:29:43 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-21 11:29:43 -0800
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-05-21 11:29:55 -0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AwJx2UPhk2kCQP9g2vZDgyGDU52YMuepvwmoXx+H2jkotzHvcOhNOecO9K38aGjQ4t1bFe1VPi3RjDYAOfcSow==", "user"=>{"email"=>"khushi3july@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "khushi3july@gmail.com"]]
+Completed 401 Unauthorized in 2ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AwJx2UPhk2kCQP9g2vZDgyGDU52YMuepvwmoXx+H2jkotzHvcOhNOecO9K38aGjQ4t1bFe1VPi3RjDYAOfcSow==", "user"=>{"email"=>"khushi3july@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (1.8ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 132ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-21 11:29:55 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-21 11:29:55 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-21 11:29:55 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-21 11:29:55 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-21 11:29:55 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-21 11:29:55 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-21 11:29:55 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-21 11:29:55 -0800
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-05-21 11:30:02 -0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (1.6ms)
+  Rendered /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/registrations/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 44ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-21 11:30:02 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-21 11:30:02 -0800
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-21 11:30:02 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-21 11:30:02 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-21 11:30:02 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-21 11:30:02 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-21 11:30:02 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-21 11:30:02 -0800
+
+
+Started POST "/users" for 127.0.0.1 at 2015-05-21 11:30:27 -0800
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fXyLAJc0PO2tQO1c+gZkFQ2hojcCavVnKPyfuHHqGpdWycs2pD3ivUgO5pHcmE9Gzv+qv3cNLONGeQHnV5rSDQ==", "user"=>{"email"=>"aaa@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'aaa@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "aaa@gmail.com"], ["encrypted_password", "$2a$10$aICMLC1EKzA29lnt9ehOUuVoarVTjnUlbFrr96Cdp/qHogZYTbJJu"], ["created_at", "2015-05-21 19:30:27.320724"], ["updated_at", "2015-05-21 19:30:27.320724"]]
+  [1m[36m (80.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2015-05-21 19:30:27.403438"], ["current_sign_in_at", "2015-05-21 19:30:27.403438"], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", "2015-05-21 19:30:27.405963"], ["id", 1]]
+  [1m[35m (85.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 285ms (ActiveRecord: 167.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 11:30:27 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-21 11:30:27 -0800
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-21 11:30:27 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-21 11:30:27 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-21 11:30:27 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-21 11:30:27 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-21 11:30:27 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-21 11:30:27 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-21 11:30:27 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-21 11:30:27 -0800
+Processing by EntriesController#index as JSON
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries"[0m
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-21 11:30:27 -0800
+Processing by EntriesController#index as JSON
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries"
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-21 11:30:36 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"name"=>"onlife", "entry"=>{"name"=>"onlife"}}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "onlife"], ["created_at", "2015-05-21 19:30:36.055132"], ["updated_at", "2015-05-21 19:30:36.055132"]]
+  [1m[36m (122.7ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 136ms (Views: 1.6ms | ActiveRecord: 123.2ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2015-05-21 11:30:41 -0800
+Processing by EntriesController#create as JSON
+  Parameters: {"name"=>"liveon", "entry"=>{"name"=>"liveon"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "entries" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "liveon"], ["created_at", "2015-05-21 19:30:41.999711"], ["updated_at", "2015-05-21 19:30:41.999711"]]
+  [1m[35m (94.4ms)[0m  commit transaction
+Completed 201 Created in 101ms (Views: 0.7ms | ActiveRecord: 94.7ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 11:32:16 -0800
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 11:32:16 -0800
+Processing by RaffleController#index as HTML
+  Rendered raffle/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 39ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/raffle-43d2036f0fc24aeeecc701ab92c28f25.css?body=1" for 127.0.0.1 at 2015-05-21 11:32:16 -0800
+
+
+Started GET "/assets/entries-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-05-21 11:32:16 -0800
+
+
+Started GET "/assets/entries-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-05-21 11:32:16 -0800
+
+
+Started GET "/assets/angular-b38cd5c363d6b7a0fb796190404f949c.js?body=1" for 127.0.0.1 at 2015-05-21 11:32:16 -0800
+
+
+Started GET "/assets/application-19dbce64b0528c32bbe3206d1dea3d65.css?body=1" for 127.0.0.1 at 2015-05-21 11:32:16 -0800
+
+
+Started GET "/assets/angular-resource-ede065a6840da047f55011281d53c085.js?body=1" for 127.0.0.1 at 2015-05-21 11:32:16 -0800
+
+
+Started GET "/assets/raffle-6479dedc9fdd8ff21ef350807ca234e9.js?body=1" for 127.0.0.1 at 2015-05-21 11:32:17 -0800
+
+
+Started GET "/assets/application-6e46e5a5f5e0958e2c5fd7b51606956a.js?body=1" for 127.0.0.1 at 2015-05-21 11:32:17 -0800
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-21 11:32:17 -0800
+Processing by EntriesController#index as JSON
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries"
+Completed 200 OK in 5ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2015-05-21 11:32:17 -0800
+Processing by EntriesController#index as JSON
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries"[0m
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 0.2ms)
